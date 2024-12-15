@@ -63,44 +63,37 @@ main {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.drum:hover {
-  transform: scale(1.1);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
 .w {
   background-image: url("images/tom4.png");
-  background-size: cover;
 }
 
 .a {
   background-image: url("images/tom3.png");
-  background-size: cover;
 }
 
 .s {
   background-image: url("images/tom2.png");
-  background-size: cover;
 }
 
 .d {
   background-image: url("images/tom1.png");
-  background-size: cover;
 }
 
 .j {
   background-image: url("images/snare.png");
-  background-size: cover;
 }
 
 .k {
   background-image: url("images/kick.png");
-  background-size: cover;
 }
 
 .l {
   background-image: url("images/crash.png");
-  background-size: cover;
+}
+
+.drum:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer */
@@ -108,8 +101,8 @@ footer {
   text-align: center;
   background-color: #404B69;
   padding: 10px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Responsive Styles */
@@ -139,5 +132,9 @@ footer {
     height: 70px;
     font-size: 1.2rem;
   }
+
+  footer {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
 }
-  
